@@ -4,7 +4,7 @@ end = input("请输入开始值")
 start = int(start)
 end = int(end)
 num  = random.randint(start,end)
-count = 0    #计算猜几次数字,若写在回圈内则每次次数都会
+count = 0    #计算猜几次数字,若写在回圈内则每次次数都会重复1=0+1
 while True:
 	count = count+1  #快写法:count += 1
 	count = int(count)
