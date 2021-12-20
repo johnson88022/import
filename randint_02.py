@@ -12,7 +12,7 @@ while True:
 	n = int(n)
 	if n == num:
 		print("恭喜猜对")
-		print("这是你的猜",count,"次")
+		print("你总共猜",count,"次")
 		break
 	elif n > num: 
 		print("比",n,"小")
@@ -21,6 +21,8 @@ while True:
 	elif n < 0 and n > 100:
 		print("范围在0~100哦")
 	print("这是你的猜",count,"次")
+
+
 
 
 	
